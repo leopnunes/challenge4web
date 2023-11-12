@@ -1,0 +1,33 @@
+.header-page {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-bottom: 2.3px solid transparent;
+    border-image: linear-gradient(0.25turn, rgb(255, 255, 255), #00C3ED, rgba(255, 255, 255, 0));
+    border-image-slice: 1;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+nav {
+    width: 100%;
+}
+
+.logo {
+    width: 20%;
+    max-width: 230px;
+    min-width: 150px;
+}
+
+.dropdown-menu[data-bs-popper] {
+    left: -8vw !important; 
+}

@@ -1,0 +1,60 @@
+/* 
+// reset css
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #00C3ED;
+    font-family: 'Akshar', sans-serif;
+}
+
+
+// FOOTER
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    border-top: 2.3px solid transparent;
+    border-image: linear-gradient(0.25turn, rgb(255, 255, 255), #00C3ED, rgba(255, 255, 255, 0));
+    border-image-slice: 1;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0 30px 0 0;
+    font-size: 18px;
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    top: 128px;
+    margin-right: 30px;
+}
+
+#menu > a {
+    padding: 10px 20px 10px 20px;
+    margin: 0 0 0 20px;
+    background-color: aliceblue;
+    border-radius: 6px;
+    border-style: hidden;
+    color: #683083;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+#menu > a:hover {
+    background-color: #683083;
+    color: white;
+    font-weight: bold;
+}
+
+#error {
+    margin: 160px 0 160px 40vw;
+} */

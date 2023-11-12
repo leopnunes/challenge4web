@@ -1,0 +1,251 @@
+:root {
+  --color-blue: #00C3ED;
+  --light-blue: #d0f1f9;
+  --lighter-blue: #eef8fc;
+  --secundary-color: #683083;
+  --grey-color: #414141;
+  --font-family: "Akshar", sans-serif;
+  --line-gradient: 2px solid transparent !important;
+  --border-image: linear-gradient(0.25turn, rgb(255, 255, 255), #00C3ED, rgba(255, 255, 255, 0));
+  --border-image-slice: 1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--color-blue);
+  font-family: var(--font-family);
+}
+
+#container1 {
+  padding: 0;
+  width: 100%;
+  background-image: url("../images/container1/fundo.png");
+  background-repeat: no-repeat;
+  object-fit: fit;
+  background-position: 100% -50%;
+  background-size: 100%;
+  margin-bottom: 80px;
+}
+#container1 .heroimagem {
+  position: relative;
+  left: -16 0px;
+}
+#container1 .hero {
+  display: grid;
+  gap: 20px;
+  justify-items: center;
+}
+#container1 .hero1 {
+  justify-items: center;
+  background-color: var(--bs-white);
+}
+#container1 .bottom p {
+  color: var(--secundary-color);
+}
+
+#container2 .top2 {
+  height: 420px;
+  margin-top: 160px;
+  background-image: url("../images/container2/kate-joie-wxW37QUEYDY-unsplash 1.jpg");
+  object-fit: fit;
+}
+#container2 .h1top {
+  color: var(--bs-body-bg);
+  position: relative;
+  top: 60px;
+  left: 30px;
+  letter-spacing: 3px;
+}
+#container2 .h1top b {
+  color: var(--color-blue);
+}
+#container2 p {
+  color: #414141;
+}
+#container2 .content2 {
+  background-color: var(--lighter-blue);
+}
+#container2 .part101 {
+  border: 3px solid var(--secundary-color);
+  border-radius: 10px;
+  height: 400px;
+  grid-template-columns: 1fr 1fr;
+}
+#container2 .part101icones {
+  justify-items: center;
+}
+#container2 .part101texto {
+  justify-items: baseline;
+}
+#container2 .part1 h2 {
+  color: var(--secundary-color);
+}
+#container2 .part3 img {
+  width: 425px;
+}
+
+#container3 .top3 {
+  height: 420px;
+  margin-top: 160px;
+  background-image: url("../images/container3/damian-denis-D8R_txR_0PE-unsplash 1.png");
+}
+#container3 .h1top3 {
+  letter-spacing: 3px;
+  color: #414141;
+  position: relative;
+  top: 40px;
+  left: 64vw;
+  width: 420px;
+}
+#container3 p {
+  color: #414141;
+}
+
+#container4 .top4 {
+  height: 420px;
+  margin-top: 160px;
+  background-image: url("../images/container4/microscope-geff10a107_1920.png");
+}
+#container4 .h1top4 {
+  letter-spacing: 3px;
+  color: var(--bs-white);
+  position: relative;
+  top: 220px;
+  left: 60px;
+}
+#container4 .h1top4 b {
+  color: var(--color-blue);
+}
+#container4 .part3 b {
+  color: var(--color-blue);
+}
+#container4 .content4 {
+  justify-items: center;
+  align-items: center;
+}
+#container4 .content401 {
+  background-color: var(--lighter-blue);
+}
+#container4 .content401 div {
+  border: double 2px transparent;
+  border-radius: 0 20px 20px 0;
+  background-image: linear-gradient(white, white), radial-gradient(circle at top left, white, #00C3ED);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  background-color: white;
+}
+#container4 p {
+  color: #414141;
+}
+
+#container5 {
+  padding: 0;
+  background-image: url("../images/container5/fundo.png");
+  background-repeat: repeat;
+  background-size: 100%;
+}
+#container5 .top5 {
+  width: 100%;
+  height: 420px;
+  margin-top: 160px;
+  background-image: url("../images/container5/top.png");
+  object-fit: fit;
+}
+#container5 .h1top5 {
+  letter-spacing: 3px;
+  color: var(--bs-white);
+  position: relative;
+  top: 120px;
+  left: 72vw;
+}
+#container5 .content5 {
+  flex-direction: column;
+}
+#container5 .content5 img {
+  min-width: 300px;
+}
+
+#container6 .top6 {
+  width: 100%;
+  height: 420px;
+  margin-top: 160px;
+  background-image: url("../images/container6/microscope-geff10a107_1920.png");
+  color: var(--bs-white);
+}
+#container6 .h1top6 {
+  position: relative;
+  top: 30vh;
+  left: 3vw;
+  letter-spacing: 3px;
+}
+
+#container7 {
+  background-image: url("../images/container7/man-g1ed46322a_1280.png");
+  object-fit: cover;
+  height: 800px;
+}
+#container7 .h1top7 {
+  letter-spacing: 3px;
+  color: var(--grey-color);
+  position: relative;
+  margin-top: 160px;
+  left: 50px;
+  top: 40px;
+}
+#container7 .content7 {
+  position: relative;
+  top: 30vh;
+  width: 50rem;
+  justify-items: start;
+}
+#container7 .part1 img {
+  width: 50%;
+}
+#container7 p {
+  color: #414141;
+}
+
+@media (min-width: 576px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+  .content2 {
+    grid-template-columns: 1fr;
+  }
+  .content3 {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .content4 {
+    grid-template-columns: 1fr;
+  }
+  .content6 {
+    justify-items: center;
+    margin: 8vh 0;
+  }
+}
+@media (min-width: 992px) {
+  .hero {
+    grid-template-columns: auto auto auto;
+  }
+  .content2 {
+    grid-template-columns: 1fr 1fr;
+  }
+  .content3 {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .content4 {
+    grid-template-columns: 2fr 1fr 2fr;
+  }
+  .content401 {
+    grid-template-columns: 4fr 1fr;
+    justify-items: center;
+  }
+  .content6 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
